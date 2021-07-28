@@ -18,5 +18,16 @@ For other Linux flavors, macOS and Windows, packages are available at
 
   https://www.python.org/getit/
   
+
+#### To Run Program 
+
+gedit filename 
+
+python filename --> to run the python file 
+
+
+
+
+  
   
 
