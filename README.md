@@ -28,6 +28,32 @@ python filename --> to run the python file
 
 
 
+ShellCode
+------------
+
+###  Steps to execute a shell script in Linux
+
+Create a new file called demo.sh using a text editor such as nano or vi in Linux: 
+
+
+    $  nano demo.sh
+    
+Set the script executable permission by running chmod command in Linux:
+
+    $  chmod +x demo.sh
+    
+Execute a shell script in Linux
+
+    $  ./demo.sh
+
+
+
+
+
+
+
+
+
   
   
 
