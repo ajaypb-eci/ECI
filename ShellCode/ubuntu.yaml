@@ -1,7 +1,0 @@
----
- - hosts: webservers
-   tasks:
-   - name: Install Git
-     apt:
-      name: git
-      state: latest
