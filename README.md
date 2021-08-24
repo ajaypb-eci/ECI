@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ECI
 
 ShellCode
@@ -57,3 +58,6 @@ For creating python file we are using .py extension
 For executing python code following command is used
     
     python3 filename.py
+=======
+# ECI
+>>>>>>> 91198435cad47bd1e4c437c252e0441ea9249509

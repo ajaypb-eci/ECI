@@ -1,4 +1,4 @@
-echo "enter n value to find even numbers."
+echo ""enter n value to find even numbers.""
 read n
 i=1
 while [ $i -le $n ]
