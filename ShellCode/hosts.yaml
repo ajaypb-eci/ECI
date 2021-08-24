@@ -1,0 +1,19 @@
+all:
+  hosts:
+    10.70.80.11:
+    10.70.80.12:
+  children: 
+    webservers:
+      hosts:
+        10.70.80.11:
+          package_name: "apache2"
+          php_modules:
+            - "php"
+            - "php-mysql" 
+            - "libapache2-mod-php"
+            - "php-cli"
+        10.70.80.12:
+          package_name: "httpd"
+          php_modules:
+            - "php"
+            - "php-mysql" 
