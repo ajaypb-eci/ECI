@@ -1,2 +1,0 @@
-echo "$now"
-echo "$hostname"
