@@ -1,0 +1,1 @@
+echo $HOSTNAME $BASH_VERSION
