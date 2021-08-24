@@ -1,6 +1,0 @@
----
- - hosts: webservers
- - include: ubuntu.yaml
-   when: "ansible_os_family=='Ubuntu'"
- - include: redhat.yaml
-   when: "ansible_os_family=='RedHat'"
