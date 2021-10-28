@@ -1,7 +1,7 @@
 ---
  - hosts: webservers
    tasks: 
- - name: install tree package
+ - name: install tree package on jenkins
      yum: 
        name: tree
        state: latest
