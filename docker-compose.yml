@@ -1,0 +1,11 @@
+services:
+  d_jenkins:
+    image: jenkins/jenkins:jdk11
+    privileged: true    
+    restart: always
+    ports:
+      - '8929:8080'
+      - '50003:50000'
+    volumes:
+      - "/django-jenkins/1.1/data/data:/var/d_jenkins"
+    container_name: d_jenkins
