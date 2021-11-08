@@ -6,11 +6,6 @@ pipeline {
                 echo 'Static Analysis' 
             }
         }
-        stage('Compile') {
-            steps {
-                echo 'Compile the source code completely' 
-            }
-        }
         stage('Security Check') {
             steps {
                 echo 'Run the security check against the application' 
